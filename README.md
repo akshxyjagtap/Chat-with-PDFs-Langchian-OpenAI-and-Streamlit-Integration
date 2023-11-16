@@ -44,6 +44,8 @@ This Python script enables users to interactively ask questions from multiple up
 
 ![App Interface 1](https://github.com/akshxyjagtap/Ask-form-PDF-using-langchain/blob/a222260626e340a8c50fc98b8515b1547094ca0a/data/Screenshot%202023-11-16%20122410.png)
 
+---
+
 ![App Interface 2](https://github.com/akshxyjagtap/Ask-form-PDF-using-langchain/blob/a222260626e340a8c50fc98b8515b1547094ca0a/data/Screenshot%202023-11-16%20122509.png)
 
 ## Important Notes
