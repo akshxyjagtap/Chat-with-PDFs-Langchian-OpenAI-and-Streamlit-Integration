@@ -44,7 +44,6 @@ To use this application, you'll need an OpenAI API key. Here's how you can obtai
 4. Find or generate your API key. It will usually be a long string of characters.
 5. Copy the API key and paste it into the 'Enter your OpenAI API key' field in the application.
 
-If you need further assistance or want to manage your API keys, you can visit [O
 
 4. **Interacting with the Application**
 
