@@ -25,22 +25,32 @@ Libraries:'streamlit',, `PyPDF2`, `langchain`, `FAISS`
     pip install -r requirements.txt
     ```
 
-2. Run the application.
+2. **Run the application.**
 
     ```bash
     streamlit main.py
     ```
 
+3. **Obtaining OpenAI API Key**
 
+To use this application, you'll need an OpenAI API key. Here's how you can obtain it:
 
-3. **Interacting with the Application**
+1. Visit the [OpenAI website](https://openai.com/).
+2. Sign in or create an account if you're a new user.
+3. Once logged in, navigate to your account settings or API dashboard.
+4. Find or generate your API key. It will usually be a long string of characters.
+5. Copy the API key and paste it into the 'Enter your OpenAI API key' field in the application.
+
+If you need further assistance or want to manage your API keys, you can visit [O
+
+4. **Interacting with the Application**
 
 Input your OpenAI API key in the provided field.
 Upload multiple PDF documents.
 Ask questions related to the uploaded PDFs in the text input field provided.
 Click "Process" to handle the user query based on the uploaded documents.
 
-4. Screenshots
+5. **Screenshots**
 
 [App Interface 1](https://github.com/akshxyjagtap/Ask-form-PDF-using-langchain/blob/a222260626e340a8c50fc98b8515b1547094ca0a/data/Screenshot%202023-11-16%20122410.png)
 
@@ -48,11 +58,11 @@ Click "Process" to handle the user query based on the uploaded documents.
 
 [App Interface 2](https://github.com/akshxyjagtap/Ask-form-PDF-using-langchain/blob/a222260626e340a8c50fc98b8515b1547094ca0a/data/Screenshot%202023-11-16%20122509.png)
 
-## Important Notes
+## 6. Important Notes
 
 Ensure a stable internet connection to interact with the OpenAI GPT-3.5 API.
 The OpenAI API key is sensitive. Keep it confidential, and avoid sharing it publicly.
 
-## Contributing
+## 7.Contributing
 
 Contributions are welcome! Feel free to fork the repository, make enhancements, and create pull requests to improve the functionality or user experience of the application.
