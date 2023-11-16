@@ -1,4 +1,6 @@
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 # Chat with Multiple PDFs - OpenAI and Streamlit Integration
+
 
 This Python script enables users to interactively ask questions from multiple uploaded PDF documents using the OpenAI GPT-3 language model. The application is built using Streamlit, a popular Python library for creating web applications.
 
@@ -28,9 +30,7 @@ This Python script enables users to interactively ask questions from multiple up
     ```bash
     streamlit main.py
     ```
-![Description of Screenshot 1](https://github.com/akshxyjagtap/Ask-form-PDF-using-langchain/raw/a222260626e340a8c50fc98b8515b1547094ca0a/data/Screenshot%202023-11-16%20122410.png)
 
-![Description of Screenshot 2](https://github.com/akshxyjagtap/Ask-form-PDF-using-langchain/raw/a222260626e340a8c50fc98b8515b1547094ca0a/data/Screenshot%202023-11-16%20122509.png)
 
 
 3. **Interacting with the Application**
