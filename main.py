@@ -65,6 +65,19 @@ def main()    :
     st.sidebar.title("OpenAI Configuration")
     api_key = st.sidebar.text_input("Enter your OpenAI API key:")
     os.environ["OPENAI_API_KEY"] = api_key
+    st.sidebar.markdown('### Need an OpenAI API Key?')
+    st.sidebar.markdown(
+        "To use this application, you'll need an OpenAI API key. If you don't have one, you can obtain it [here](https://platform.openai.com/api-keys) "
+    )
+    # ... (rest of the code remains unchanged)
+
+    # Add attribution in the app
+    st.markdown(
+        """
+        *Created by [Akshay Jagtap](https://github.com/akshxyjagtap)*
+        """,
+        unsafe_allow_html=True
+    )
     st.write(css, unsafe_allow_html=True)
 
     if "conversation" not in st.session_state:
