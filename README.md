@@ -50,7 +50,7 @@ Upload multiple PDF documents.
 Ask questions related to the uploaded PDFs in the text input field provided.
 Click "Process" to handle the user query based on the uploaded documents.
 
-5. **Screenshots**
+5. Screenshots
 
 [App Interface 1](https://github.com/akshxyjagtap/Ask-form-PDF-using-langchain/blob/a222260626e340a8c50fc98b8515b1547094ca0a/data/Screenshot%202023-11-16%20122410.png)
 
@@ -58,11 +58,11 @@ Click "Process" to handle the user query based on the uploaded documents.
 
 [App Interface 2](https://github.com/akshxyjagtap/Ask-form-PDF-using-langchain/blob/a222260626e340a8c50fc98b8515b1547094ca0a/data/Screenshot%202023-11-16%20122509.png)
 
-## 6. Important Notes
+## Important Notes
 
 Ensure a stable internet connection to interact with the OpenAI GPT-3.5 API.
 The OpenAI API key is sensitive. Keep it confidential, and avoid sharing it publicly.
 
-## 7.Contributing
+## Contributing
 
 Contributions are welcome! Feel free to fork the repository, make enhancements, and create pull requests to improve the functionality or user experience of the application.
