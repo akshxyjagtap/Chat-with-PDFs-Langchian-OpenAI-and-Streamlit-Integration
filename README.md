@@ -7,8 +7,11 @@ This Python script enables users to interactively ask questions from multiple up
 ## Features
 
 **OpenAI GPT-3 Integration**: Utilizes OpenAI's GPT-3 model for answering user queries related to the content of uploaded PDF documents.
+
 **PDF Text Extraction**: Extracts text content from uploaded PDF files using `PyPDF2`.
+
 **Chunking and Vectorization**: Splits the extracted text into chunks and creates a vector store using `langchain` and `FAISS` for efficient search and retrieval.
+
 **Conversational Interface**: Employs a conversational chain for maintaining context between user queries across multiple PDF documents.
 Streamlit UI: Provides a user-friendly interface powered by Streamlit, allowing users to input their OpenAI API key, upload PDFs, and ask questions.
 
@@ -50,7 +53,7 @@ Upload multiple PDF documents.
 Ask questions related to the uploaded PDFs in the text input field provided.
 Click "Process" to handle the user query based on the uploaded documents.
 
-5. Screenshots
+5. **Screenshots**
 
 [App Interface 1](https://github.com/akshxyjagtap/Ask-form-PDF-using-langchain/blob/a222260626e340a8c50fc98b8515b1547094ca0a/data/Screenshot%202023-11-16%20122410.png)
 
