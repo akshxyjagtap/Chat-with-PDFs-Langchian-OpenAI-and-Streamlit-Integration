@@ -55,7 +55,7 @@ Click "Process" to handle the user query based on the uploaded documents.
 
 5. **Screenshots**
 
-[App Interface 1](https://github.com/akshxyjagtap/Ask-form-PDF-using-langchain/blob/a222260626e340a8c50fc98b8515b1547094ca0a/data/Screenshot%202023-11-16%20122410.png)
+[App Interface 1](https://github.com/akshxyjagtap/Chat-with-Multiple-PDFs-OpenAI-and-Streamlit-Integration/blob/a222260626e340a8c50fc98b8515b1547094ca0a/data/Screenshot%202023-11-16%20122410.png?raw=true)
 
 ---
 
