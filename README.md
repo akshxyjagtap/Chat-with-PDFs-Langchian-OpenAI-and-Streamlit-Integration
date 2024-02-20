@@ -5,7 +5,7 @@ This Python script enables users to interactively ask questions from multiple up
 
 ## Deployed Application
 
-The application is deployed on Streamlit Cloud. You can access it [here](https://chat-with-multiple-pdfs-openai-and-app-integration-xaddewx633s.streamlit.app/).
+The application is deployed on Streamlit Cloud. You can access it [here](https://chat-with-multiple-pdfs-langchian-openai-and-app.streamlit.app/).
 
 ## Features
 
