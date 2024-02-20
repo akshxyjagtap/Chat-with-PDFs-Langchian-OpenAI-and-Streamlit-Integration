@@ -43,23 +43,26 @@ def get_conversation_chain(vectorstore):
 
 
 def handle_userinput(user_question):
-    response = st.session_state.conversation({"question": user_question})
-    st.session_state.chat_history = response["chat_history"]
+    try:
+        response = st.session_state.conversation({"question": user_question})
+        st.session_state.chat_history = response["chat_history"]
 
-    for i, message in enumerate(st.session_state.chat_history):
-        if i % 2 == 0:
-            st.write(
-                user_template.replace("{{MSG}}", message.content),
-                unsafe_allow_html=True,
-            )
-        else:
-            st.write(
-                bot_template.replace("{{MSG}}", message.content), unsafe_allow_html=True
-            )
+        for i, message in enumerate(reversed(st.session_state.chat_history)):
+            if i % 2 == 0:
+                st.write(
+                    bot_template.replace("{{MSG}}", message.content),
+                    unsafe_allow_html=True,
+                )
+            else:
+                st.write(
+                    user_template.replace("{{MSG}}", message.content),
+                    unsafe_allow_html=True
+                )
+    except Exception as e:
+        st.error(f"An error occurred: {e}")
 
 
-
-def main()    :
+def main():
     st.set_page_config(page_title="Chat with multiple PDFs",
                        page_icon=":books:")
     st.sidebar.title("OpenAI Configuration")
@@ -85,7 +88,7 @@ def main()    :
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = None
 
-    st.header("Chat with multiple PDFs :books:")
+    st.header("Chat with Multiple PDFs :books:Document Assistant:")
     user_question = st.text_input("Ask a question about your documents:")
     if user_question:
         handle_userinput(user_question)
@@ -108,7 +111,6 @@ def main()    :
                 # create conversation chain
                 st.session_state.conversation = get_conversation_chain(
                     vectorstore)
-
 
 
 if __name__ == '__main__':
